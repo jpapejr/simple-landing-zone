@@ -1,5 +1,5 @@
-prefix                   = "< add user data here >"
-region                   = "< add user data here >"
+prefix                   = "simple-slz"
+region                   = "us-east"
 ssh_public_key           = null
 tags                     = []
 vpcs                     = ["management", "workload"]
@@ -14,7 +14,7 @@ workers_per_zone         = 1
 entitlement              = null
 wait_till                = "IngressReady"
 update_all_workers       = false
-override                 = false
+override                 = true
 
 ##############################################################################
 # F5 Deployment variables
